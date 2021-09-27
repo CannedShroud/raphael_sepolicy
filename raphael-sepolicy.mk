@@ -1,5 +1,5 @@
-#BOARD_PLAT_PUBLIC_SEPOLICY_DIRS += \
-#    device/xiaomi/raphael-sepolicy/public
+BOARD_PLAT_PUBLIC_SEPOLICY_DIRS += \
+    device/xiaomi/raphael-sepolicy/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/xiaomi/raphael-sepolicy/private
@@ -36,6 +36,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/radio \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/sensors \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/thermald \
+    device/xiaomi/raphael-sepolicy/vendor/xiaomi/touchfeature \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/usb \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/wireless \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/wlan
