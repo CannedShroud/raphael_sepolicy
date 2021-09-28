@@ -7,8 +7,9 @@ init_daemon_domain(mi_thermald)
 allow mi_thermald vendor_thermal_data_file:dir rw_dir_perms;
 allow mi_thermald vendor_thermal_data_file:file create_file_perms;
 
-allow mi_thermald self:capability {
+dontaudit mi_thermald self:capability {
   chown
+  dac_override
   fowner
   fsetid
 };
